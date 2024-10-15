@@ -30,3 +30,18 @@ html,body{
   text-align: center;
   font-style: oblique;
 	}
+	a:link {
+   color: burlywood;
+	}
+	
+	a:visited {
+	  color: dimgrey;
+	}
+	
+	a:hover {
+	 color: plum;
+	}
+	
+	a:active {
+	  color: thistle;
+	}
