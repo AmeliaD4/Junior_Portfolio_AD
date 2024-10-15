@@ -31,7 +31,7 @@ html,body{
   font-style: oblique;
 	}
 	a:link {
-   color: burlywood;
+   color: rgb(145, 23, 139);
 	}
 	
 	a:visited {
@@ -39,9 +39,9 @@ html,body{
 	}
 	
 	a:hover {
-	 color: plum;
+	 color: rgb(189, 131, 218)
 	}
 	
 	a:active {
-	  color: thistle;
+	  color: rgb(92, 195, 255);
 	}
