@@ -6,6 +6,8 @@ html,body{
 
 .banner{
 	float: right;
+	position:right;
+	right:100px;
 	background-color: rgb(120, 101, 130);
 	border: 3px solid #a3c1ad;
 	outline: 10px 10px #270f33 groove;
