@@ -1,0 +1,42 @@
+.banner{
+	
+	position:right;
+	right:100px;
+	background-color: rgb(197, 149, 181);
+	border: 3px solid #814d96;
+	outline: 10px 10px #330f24 groove;
+	text-transform: capitalize;
+	text-shadow: 1px 1px #330f20 ;
+	font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	text-align: right;
+	font-style: oblique;
+}
+.menu{
+	list-style-type: none;
+	position: left;
+	left: 20px;
+	background-color: #c1a3ab;
+	border-style: none;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-style: oblique;
+	}
+	a:link {
+   color: rgb(131, 23, 145);
+	}
+	
+	a:visited {
+	  color: dimgrey;
+	}
+	
+	a:hover {
+	 color: rgb(131, 190, 218)
+	}
+	
+	a:active {
+	  color: rgb(92, 255, 127);
+	}
