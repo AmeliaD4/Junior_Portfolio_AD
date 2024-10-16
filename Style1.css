@@ -2,7 +2,7 @@
 	
 	position:right;
 	right:100px;
-	background-color: rgb(197, 149, 181);
+	background-color: rgb(149, 179, 197);
 	border: 3px solid #814d96;
 	outline: 10px 10px #330f24 groove;
 	text-transform: capitalize;
@@ -17,7 +17,7 @@
 	list-style-type: none;
 	position: left;
 	left: 20px;
-	background-color: #c1a3ab;
+	background-color: #629168;
 	border-style: none;
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
@@ -26,7 +26,7 @@
   font-style: oblique;
 	}
 	a:link {
-   color: rgb(131, 23, 145);
+   color: rgb(23, 145, 139);
 	}
 	
 	a:visited {
@@ -34,7 +34,7 @@
 	}
 	
 	a:hover {
-	 color: rgb(131, 190, 218)
+	 color: rgb(150, 131, 218)
 	}
 	
 	a:active {
