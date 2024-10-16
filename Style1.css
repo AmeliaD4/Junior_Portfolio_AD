@@ -40,7 +40,7 @@
 	a:active {
 	  color: rgb(92, 255, 127);
 	}
-    html,body{
+    body{
         background: linear-gradient(358deg, #9fd2c2, #a27ce1);
         background-size: 400% 400%;
     
