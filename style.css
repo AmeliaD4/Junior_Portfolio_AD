@@ -5,7 +5,7 @@ html,body{
 }
 
 .banner{
-	float: right;
+	
 	position:right;
 	right:100px;
 	background-color: rgb(120, 101, 130);
