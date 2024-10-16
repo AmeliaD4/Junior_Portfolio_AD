@@ -40,3 +40,15 @@
 	a:active {
 	  color: rgb(92, 255, 127);
 	}
+    html,body{
+        background: linear-gradient(358deg, #9fd2c2, #a27ce1);
+        background-size: 400% 400%;
+    
+        animation: AnimationName 30s ease infinite;
+    }
+    
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
