@@ -25,6 +25,16 @@
   text-align: center;
   font-style: oblique;
 	}
+li{
+	float: left;
+	}
+li a {
+		display: block;
+		color: rgb(39, 58, 57);
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	  }
 	a:link {
    color: rgb(23, 145, 139);
 	}
@@ -40,6 +50,7 @@
 	a:active {
 	  color: rgb(92, 255, 127);
 	}
+	  
     body{
         background: linear-gradient(358deg, #9fd2c2, #a27ce1);
         background-size: 400% 400%;
