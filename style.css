@@ -48,10 +48,10 @@ html,body{
 	}
 .container{
 border-color: aliceblue;
-border-style: dotted;
+border-style: double;
 border-width: 2px;
-background: linear-gradient(358deg, #ad9fd2, #99b8b8);
-background-size: 100% 100%;
+background: linear-gradient(358deg, #ad9fd2, #bee6e6);
+background-size: 200% 200%;
 
 animation: AnimationNam
 e1 30s ease infinite;
