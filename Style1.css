@@ -24,17 +24,12 @@
   font-style: normal;
   text-align: center;
   font-style: oblique;
+  overflow: hidden;
 	}
 li{
 	float: left;
 	}
-li a {
-		display: block;
-		color: rgb(39, 58, 57);
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-	  }
+
 	a:link {
    color: rgb(23, 145, 139);
 	}
