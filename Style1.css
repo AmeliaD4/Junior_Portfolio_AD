@@ -78,7 +78,17 @@ iframe {
 	}
 li{
 	float: left;
+	margin: 0;
+  padding: 0;
+  overflow: hidden;
 	}
+	li a {
+	    
+  display: block;
+  text-align: center;
+  padding: 6px 8px;
+  text-decoration: none;
+}
 
 	a:link {
    color: rgb(23, 145, 139);
