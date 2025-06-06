@@ -5,8 +5,8 @@ html,body{
 }
 .banner{
 	
-	position:right;
-	right:100px;
+	width: 600px;
+	height: 490px;
 	background-color: rgb(120, 101, 130);
 	border: 3px solid #a3c1ad;
 	outline: 10px 10px #270f33 groove;
@@ -17,11 +17,23 @@ html,body{
   font-style: normal;
 	text-align: right;
 	font-style: oblique;
+	overflow: hidden;
 }
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* or flex-start/space-around/etc. */
+  gap: 20px; /* space between menu items */
+}
+
 .menu{
+    padding: 10px 0;
 	list-style-type: none;
 	float:left;
-	position: absolute;
+	/*position: relative;*/
 	left: 20px;
 	background-color: #a3c1ad;
 	border-style: none;
@@ -31,8 +43,28 @@ html,body{
   text-align: center;
   font-style: oblique;
 	}
+	
+	ul{
+	    list-style-type: none;
+	     margin: 0;
+  padding: 0;
+  overflow: hidden;
+	}
+	
+	li {
+  float: left;
+}
+
+	li a {
+	    
+  display: block;
+  text-align: center;
+  padding: 6px 8px;
+  text-decoration: none;
+}
 	a:link {
    color: rgb(145, 23, 139);
+  
 	}
 	
 	a:visited {
