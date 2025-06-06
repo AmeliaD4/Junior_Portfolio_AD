@@ -59,22 +59,6 @@ li{
 	  color: rgb(92, 255, 127);
 	}
 	
-	.cfu-content {
-  display: none;
-  margin-bottom: 20px;
-}
-
-.cfu-title {
-  cursor: pointer;
-  background-color: #eee;
-  padding: 10px;
-  margin: 0;
-  border: 1px solid #ccc;
-}
-
-.cfu-title:hover {
-  background-color: #ddd;
-}
 
 	  
     body{
