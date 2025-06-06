@@ -78,6 +78,24 @@ iframe {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+.cfu-content {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.cfu-title {
+  cursor: pointer;
+  background-color: #eee;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+}
+
+.cfu-title:hover {
+  background-color: #ddd;
+}
+
 	
 	ul{
 	    list-style-type: none;
