@@ -38,18 +38,6 @@
   color: #333;
 }
 
-.cfu-18 .iframe-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.cfu-18 .iframe-row iframe {
-  flex: 3;
-  height: 400px;
-  border: none;
-}
-
 h4 {
   text-align: center;
   margin-bottom: 1em;
