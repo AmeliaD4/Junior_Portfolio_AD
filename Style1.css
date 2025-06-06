@@ -13,9 +13,59 @@
 	text-align: right;
 	font-style: oblique;
 }
+.cfu-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+  padding-bottom: 1em;
+  scroll-snap-type: x mandatory;
+}
+
+.cfu-card {
+  flex: 0 0 90%;
+  max-width: 600px;
+  max-height:600px;
+  background: white;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  scroll-snap-align: start;
+}
+
+.cfu-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.cfu-18 .iframe-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.cfu-18 .iframe-row iframe {
+  flex: 3;
+  height: 400px;
+  border: none;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+
+iframe {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 .menu{
 	list-style-type: none;
-	position: left;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
 	left: 20px;
 	background-color: #bcd6c0;
 	border-style: none;
@@ -45,8 +95,28 @@ li{
 	a:active {
 	  color: rgb(92, 255, 127);
 	}
+	
+	.cfu-content {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.cfu-title {
+  cursor: pointer;
+  background-color: #eee;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+}
+
+.cfu-title:hover {
+  background-color: #ddd;
+}
+
 	  
     body{
+         padding: 1em;
+  margin: 0;
         background: linear-gradient(358deg, #9fd2c2, #a27ce1);
         background-size: 400% 400%;
     
